@@ -23,7 +23,6 @@ export default function AboutMe() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
-        {/* About Me Text */}
         <motion.div
           className="lg:w-1/2"
           initial={{ opacity: 0, x: -100 }}
